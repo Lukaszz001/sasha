@@ -12,36 +12,37 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// JEDNO ŹRÓDŁO PRAWDY DLA IKONY
-const ICON = "/favicon.png";
-
 export const metadata: Metadata = {
   title: "Sasha - Bonusy i promocje na kasyna online",
   description: "Bonusy, promocje i polecane kasyna online",
 
-  // FAVICONY – przeglądarka + iOS
   icons: {
-    icon: ICON,
-    shortcut: ICON,
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
     apple: "/apple-touch-icon.png",
   },
 
-  // WHATSAPP / FACEBOOK / MESSENGER
   openGraph: {
     title: "Sasha - Bonusy i promocje na kasyna online",
     description: "Bonusy, promocje i polecane kasyna online",
     url: "https://mrsasha.vercel.app",
     siteName: "Sasha",
-    images: [ICON],
+    images: [
+      {
+        url: "https://mrsasha.vercel.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Sasha - Bonusy i promocje",
+      },
+    ],
     type: "website",
   },
 
-  // TWITTER / X
   twitter: {
     card: "summary_large_image",
     title: "Sasha - Bonusy i promocje na kasyna online",
     description: "Bonusy, promocje i polecane kasyna online",
-    images: [ICON],
+    images: ["https://mrsasha.vercel.app/og.png"],
   },
 };
 

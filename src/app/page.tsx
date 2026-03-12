@@ -17,38 +17,38 @@ export default function Home() {
           <Image src="/icon3.png" alt="Logo" width={250} height={250} className="mx-auto" />
         </div>
 
-        {/* Wąski baner Cold */}
-        <div className="relative w-80 bg-gradient-to-br from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] rounded-3xl p-6 flex flex-col items-center gap-4 shadow-xl border border-[#1e3a8a]/60 mt-0 z-10">
-          {/* Neon glow */}
-          <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] opacity-30 blur-3xl -z-10"></div>
+     {/* Wąski baner SpinBetter */}
+<div className="relative w-80 bg-gradient-to-br from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] rounded-3xl p-6 flex flex-col items-center gap-4 shadow-xl border border-[#1e3a8a]/60 mt-0 z-10">
+  {/* Neon glow */}
+  <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] opacity-30 blur-3xl -z-10"></div>
 
-          <Image src="/cold.png" alt="Cold Logo" width={120} height={120} className="mt-4" />
+  <Image src="/spinbetter.png" alt="SpinBetter Logo" width={120} height={120} className="mt-4" />
 
-          <div className="text-center text-lg font-bold text-white mt-2">
-            100% BONUS POWITALNY + 150FS
-          </div>
-          <div className="text-sm text-gray-100 text-center">
-            <span className="font-bold">Największe plusy:</span> Pakiet powitalny do 6338 PLN + 150 darmowych spinów
-            <br />Z kodem <strong>SASHA</strong> 100% do pierwszej wpłaty!
-          </div>
+  <div className="text-center text-lg font-bold text-white mt-2">
+    100% BONUS POWITALNY + 150FS
+  </div>
+  <div className="text-sm text-gray-100 text-center">
+    <span className="font-bold">Największe plusy:</span> Pakiet powitalny do 6350 PLN + 150 darmowych spinów
+    <br />Z kodem <strong>SASHA</strong> 100% do pierwszej wpłaty!
+  </div>
 
-          <button
-            className="bg-gradient-to-r from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] hover:from-[#3b82f6] hover:to-[#1e3a8a] text-white rounded-full px-4 py-2 font-bold text-sm mt-2 w-full"
-            onClick={() => {
-              navigator.clipboard.writeText("SASHA");
-              setCopiedSpinbara(true);
-              setTimeout(() => setCopiedSpinbara(false), 2000);
-            }}
-          >
-            {copiedSpinbara ? "Skopiowano" : "KOD: SASHA"}
-          </button>
+  <button
+    className="bg-gradient-to-r from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] hover:from-[#3b82f6] hover:to-[#1e3a8a] text-white rounded-full px-4 py-2 font-bold text-sm mt-2 w-full"
+    onClick={() => {
+      navigator.clipboard.writeText("SASHA");
+      setCopiedSpinbara(true);
+      setTimeout(() => setCopiedSpinbara(false), 2000);
+    }}
+  >
+    {copiedSpinbara ? "Skopiowano" : "KOD: SASHA"}
+  </button>
 
-          <a href="http://coldredir.com/L?tag=d_5039186m_126624c_&site=5039186&ad=126624" target="_blank" className="w-full">
-            <button className="w-full bg-gradient-to-r from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] hover:from-[#3b82f6] hover:to-[#1e3a8a] text-white rounded-full px-4 py-2 font-bold text-sm mt-2">
-              Odbierz bonusy →
-            </button>
-          </a>
-        </div>
+  <a href="https://redirspinner.com/2NSG?p=%2Fregistration%2F" target="_blank" className="w-full">
+    <button className="w-full bg-gradient-to-r from-[#1e3a8a] via-[#2563eb] to-[#3b82f6] hover:from-[#3b82f6] hover:to-[#1e3a8a] text-white rounded-full px-4 py-2 font-bold text-sm mt-2">
+      Odbierz bonusy →
+    </button>
+  </a>
+</div>
 
 {/* Footer */}
 <footer className="w-full max-w-7xl mx-auto text-center text-xs text-gray-500 py-6 border-t border-[#222] mt-12 px-4">
